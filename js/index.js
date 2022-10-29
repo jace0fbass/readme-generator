@@ -4,11 +4,12 @@ import inquirer from "inquirer";
 import generateMarkdown from "./generateMarkdown.js";
 console.log(generateMarkdown);
 // TODO: Create an array of questions for user input
-const questions = [
+inquirer.prompt([
   { 
     type: "input", 
     message: "What was your motivation?", 
-    name: "motivation" },
+    name: "motivation", 
+  },
   {
     type: "input",
     message: "Why did you build this project?",
@@ -29,7 +30,7 @@ const questions = [
     message: "What makes your project stand out?",
     name: "standOut",
   },
-];
+]);
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
