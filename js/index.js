@@ -32,15 +32,20 @@ inquirer.prompt([
     }
   ])
 
+  // TODO: Create a function to write README file
 .then(answers => {
-  const readme = generateMarkdown(answers)
-  console.log(readme)
+    const readme = generateMarkdown(answers)
+    console.log(readme)
+fs.writeFile("./README.md", readme, error => {
+    if (error) throw error
+    console.log("README saved")
 })
-// TODO: Create a function to write README file
+})
+.catch(error => console.log(error))
 
 
-// TODO: Create a function to initialize app
+//TODO: Create a function to initialize app
 function init() {}
 
-// Function call to initialize app
+//Function call to initialize app
 init();
