@@ -29,7 +29,7 @@
                 </a>
                     <br>
                 <h2>Walkthrough</h2>
-                <a href="https://drive.google.com/file/d/1kD6x43tMPN9gE1_og6OlqoCRn6i_wa-_/view/">View walkthrough
+                <a href="https://drive.google.com/file/d/1kD6x43tMPN9gE1_og6OlqoCRn6i_wa-_/view?usp=share_link">View walkthrough
                 </a>
                     <br>
                 <h2>Screenshot</h2>
