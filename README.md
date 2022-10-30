@@ -13,9 +13,8 @@ While making this project I learned how to use node.js, how to use import/export
 My Motivation for building this project was to be able to quickly and easily create a README.md file for my projects in the future using only the command line.
 
 ## Walkthrough
-<video width="320" height="240" autoplay>
-  <source src="assests\walkthrough.webm" type="video/mp4">
-</video>
+
+<a href="https://drive.google.com/file/d/1kD6x43tMPN9gE1_og6OlqoCRn6i_wa-_/view?usp=share_link">View walkthrough</a>
 
 ## Your Task
 

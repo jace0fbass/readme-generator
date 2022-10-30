@@ -32,8 +32,6 @@
                 <a href="https://drive.google.com/file/d/1kD6x43tMPN9gE1_og6OlqoCRn6i_wa-_/view?usp=share_link">View walkthrough
                 </a>
                     <br>
-                <h2>Screenshot</h2>
-                <img src="assests\readmeScreencap.jpg" class="img-fluid" alt="A picture of README.md Generator "/>
             </div>
             <div class="col-md-6">
                 <h2>Motivation</h2> 
