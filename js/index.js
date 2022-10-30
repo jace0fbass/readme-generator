@@ -33,11 +33,6 @@ inquirer
     },
     {
       type: "input",
-      message: "What is your project's screenshot URL?",
-      name: "screenshot",
-    },
-    {
-      type: "input",
       message: "What is your project's title?",
       name: "title",
     },

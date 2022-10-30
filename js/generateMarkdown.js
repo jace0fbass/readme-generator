@@ -7,7 +7,6 @@ const generateMarkdown = (data) => {
     repo,
     link,
     walkthrough,
-    screenshot,
     motivation,
     description,
     problemSolved,
@@ -48,8 +47,6 @@ const generateMarkdown = (data) => {
                 <a href="${walkthrough}">View walkthrough
                 </a>
                     <br>
-                <h2>Screenshot</h2>
-                <img src="${screenshot}" class="img-fluid" alt="A picture of ${title} "/>
             </div>
             <div class="col-md-6">
                 <h2>Motivation</h2> 
