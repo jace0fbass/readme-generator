@@ -5,6 +5,11 @@ import generateMarkdown from "./generateMarkdown.js";
 console.log(generateMarkdown);
 // TODO: Create an array of questions for user input
 inquirer.prompt([
+  { 
+    type: "input", 
+    message: "What is your project's title?", 
+    name: "title" 
+  },
     { 
       type: "input", 
       message: "What was your motivation?", 

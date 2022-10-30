@@ -1,8 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 const generateMarkdown = (data) => {
-  const { motivation, why, problemSolved, learned, standOut } = data;
+  const { title, motivation, why, problemSolved, learned, standOut } = data;
   return `
-
+<!DOCTYPE md>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,9 +14,10 @@ const generateMarkdown = (data) => {
 <body>
     <div class="container">
         <div class="column">
-                <img src="" class="img-fluid" alt="A picture of "/>
+                <img src="" class="img-fluid" alt="A picture of ${title} "/>
             </div>
             <div class="col-md-6">
+                <h1>${title}</h2>
                 <h2>Motivation:</h2> 
                     <p>${motivation}</p>
                 <h2>Why this project was built:</h2> 

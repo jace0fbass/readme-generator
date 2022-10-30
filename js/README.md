@@ -1,5 +1,5 @@
 
-
+<!DOCTYPE md>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,19 +11,20 @@
 <body>
     <div class="container">
         <div class="column">
-                <img src="" class="img-fluid" alt="A picture of "/>
+                <img src="" class="img-fluid" alt="A picture of README.md Generator "/>
             </div>
             <div class="col-md-6">
+                <h1>README.md Generator</h2>
                 <h2>Motivation:</h2> 
-                    <p>i was kjdf sdfgsgsd sd </p>
+                    <p>Motive</p>
                 <h2>Why this project was built:</h2> 
-                    <p>s dfgs gsdfgfg g  sd sdf </p>
+                    <p>Why</p>
                 <h2>Problems solved by this project:</h2> 
-                    <p>s dfgf d sdfgsd </p>
+                    <p>Solved</p>
                 <h2>What was learned from this project:</h2> 
-                    <p>sdgf d gd f </p>
+                    <p>Learned</p>
                 <h2>This project stands out from others by:</h2> 
-                    <p>s ds gs  d s</p>
+                    <p>I made it</p>
             </div>
         </div>
     </div>
