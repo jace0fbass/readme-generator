@@ -48,7 +48,7 @@ inquirer
     },
     {
       type: "input",
-      message: "Why did you build this project?",
+      message: "Describe your project.",
       name: "description",
     },
     {
