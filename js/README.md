@@ -29,7 +29,7 @@
                 </a>
                     <br>
                 <h2>Walkthrough</h2>
-                <a href="assests\readmeScreencap.jpg">View walkthrough
+                <a href="walkthrough">View walkthrough
                 </a>
                     <br>
                 <h2>Screenshot</h2>
