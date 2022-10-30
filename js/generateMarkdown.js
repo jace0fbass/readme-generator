@@ -6,6 +6,7 @@ const generateMarkdown = (data) => {
     username,
     repo,
     link,
+    walkthrough,
     screenshot,
     motivation,
     description,
@@ -42,6 +43,9 @@ const generateMarkdown = (data) => {
                 <a href="mailto:<nowiki>${email}?
                     subject=subject text"><i class="bi bi-envelope-fill"></i> Email ${username}
                 </a>
+                    <br>
+                <h2>Walkthrough</h2>
+                <img src="${walkthrough}" class="img-fluid" alt="A video walkthrough of ${title} "/>
                     <br>
                 <h2>Screenshot</h2>
                 <img src="${screenshot}" class="img-fluid" alt="A picture of ${title} "/>

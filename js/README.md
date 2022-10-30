@@ -11,37 +11,40 @@
 </head>
 <body>
     <div class="container">
-    <h1>s</h1>
+    <h1>README.md Generator</h1>
         <div class="column">
                 <h2>User Contact</h2>
                 <a href="https://github.com/jace0fbass/"><i class="bi bi-github fs-3"></i>jace0fbass</a>
                     <br>
-                <a href="s"> 
+                <a href="https://github.com/jace0fbass/readme-generator"> 
                 <i class="bi bi-github fs-3"></i>Repository
                 </a>
                     <br>
-                <a href="d">
+                <a href="https://jace0fbass.github.io/readme-generator/">
                 <i class="bi bi-github fs-3"></i>Deployed
                 </a>
                     <br>
-                <a href="mailto:<nowiki>d?
+                <a href="mailto:<nowiki>jajones414@gmail.com?
                     subject=subject text"><i class="bi bi-envelope-fill"></i> Email jace0fbass
                 </a>
                     <br>
+                <h2>Walkthrough</h2>
+                <img src="assests\Screenshot 2022-10-30 130113.jpg" class="img-fluid" alt="A video walkthrough of README.md Generator "/>
+                    <br>
                 <h2>Screenshot</h2>
-                <img src="s" class="img-fluid" alt="A picture of s "/>
+                <img src="assests\Screenshot 2022-10-30 130113.jpg" class="img-fluid" alt="A picture of README.md Generator "/>
             </div>
             <div class="col-md-6">
                 <h2>Motivation</h2> 
-                    <p>s</p>
+                    <p>My Motivation for building this project was to be able to quickly and easily create a README.md file for my projects in the future using only the command line.</p>
                 <h2>Description</h2> 
-                    <p>s</p>
+                    <p>The user accesses node.js through the command line and after running the index.js file the user is prompted to provide a series of information. When the user has enetered all of the required information a new README.md file will be created in the project's workspace folder containing the user's personal information.</p>
                 <h2>Problems Solved</h2> 
-                    <p>s</p>
+                    <p>This application is designed to save the user time by them not having to search for a README.md template. The user simply has to run the index.js file in node and fill in the required information and when all questions have been asnwered a new structured README.md file with icons and active links is created.</p>
                 <h2>Learned</h2> 
-                    <p>s</p>
+                    <p>While making this project I learned how to use node.js, how to use import/export, how to use package.json information, how to use modules, and how to use licenses. </p>
                 <h2>Appeal</h2> 
-                    <p>s</p>
+                    <p>The appeal of this application is that it is going to save you time! Time is the most valuable commodity on earth and this is going give it to you! BUY NOW!</p>
             </div>
         </div>
     </div>

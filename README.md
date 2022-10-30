@@ -1,4 +1,25 @@
 # 09 Node.js Challenge: Professional README Generator
+## Deployed link
+
+https://jace0fbass.github.io/readme-generator/
+
+
+## Description
+
+While making this project I learned how to use node.js, how to use import/export, how to use package.json information, how to use modules, and how to use licenses. The user accesses node.js through the command line and after running the index.js file the user is prompted to provide a series of information. When the user has enetered all of the required information a new README.md file will be created in the project's workspace folder containing the user's personal information. The appeal of this application is that it is going to save you time when working on a project. Time is the most valuable commodity on earth and this is going give it to you!
+
+
+## Motivation
+
+My Motivation for building this project was to be able to quickly and easily create a README.md file for my projects in the future using only the command line.
+
+## Walkthrough
+
+
+## Screenshot
+
+<img src="assests\readmeScreencap.jpg" alt="An image of the README.md Generator"/>
+
 
 ## Your Task
 
