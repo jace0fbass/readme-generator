@@ -1,6 +1,15 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 const generateMarkdown = (data) => {
-  const { title, motivation, why, problemSolved, learned, standOut } = data;
+  const {
+    title,
+    link,
+    screenshot,
+    motivation,
+    why,
+    problemSolved,
+    learned,
+    standOut,
+  } = data;
   return `
 <!DOCTYPE md>
 <html lang="en">
@@ -9,24 +18,30 @@ const generateMarkdown = (data) => {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>README.md generator</title>
 </head>
 <body>
     <div class="container">
+    <h1>${title}</h2>
         <div class="column">
-                <img src="" class="img-fluid" alt="A picture of ${title} "/>
+                <h2>Deployed Application</h2>
+                    <a href="${link}">
+                        <i class="bi bi-github fs-3"></i>
+                    </a>
+                <h2>Screenshot</h2>
+                <img src="${screenshot}" class="img-fluid" alt="A picture of ${title} "/>
             </div>
             <div class="col-md-6">
-                <h1>${title}</h2>
-                <h2>Motivation:</h2> 
+                <h2>Motivation</h2> 
                     <p>${motivation}</p>
-                <h2>Why this project was built:</h2> 
+                <h2>Purpose</h2> 
                     <p>${why}</p>
-                <h2>Problems solved by this project:</h2> 
+                <h2>Problems Solved</h2> 
                     <p>${problemSolved}</p>
-                <h2>What was learned from this project:</h2> 
+                <h2>Learned</h2> 
                     <p>${learned}</p>
-                <h2>This project stands out from others by:</h2> 
+                <h2>Appeal</h2> 
                     <p>${standOut}</p>
             </div>
         </div>

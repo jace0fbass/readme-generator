@@ -7,6 +7,16 @@ console.log(generateMarkdown);
 inquirer.prompt([
   { 
     type: "input", 
+    message: "What is your project's deployed URL?", 
+    name: "link" 
+  },
+  { 
+    type: "input", 
+    message: "What is your project's screenshot URL?", 
+    name: "screenshot" 
+  },
+  { 
+    type: "input", 
     message: "What is your project's title?", 
     name: "title" 
   },
