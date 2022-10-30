@@ -29,10 +29,11 @@
                 </a>
                     <br>
                 <h2>Walkthrough</h2>
-                <img src="assests\Screenshot 2022-10-30 130113.jpg" class="img-fluid" alt="A video walkthrough of README.md Generator "/>
+                <a href="assests\readmeScreencap.jpg">View walkthrough
+                </a>
                     <br>
                 <h2>Screenshot</h2>
-                <img src="assests\Screenshot 2022-10-30 130113.jpg" class="img-fluid" alt="A picture of README.md Generator "/>
+                <img src="assests\readmeScreencap.jpg" class="img-fluid" alt="A picture of README.md Generator "/>
             </div>
             <div class="col-md-6">
                 <h2>Motivation</h2> 

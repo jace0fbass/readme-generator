@@ -45,7 +45,8 @@ const generateMarkdown = (data) => {
                 </a>
                     <br>
                 <h2>Walkthrough</h2>
-                <img src="${walkthrough}" class="img-fluid" alt="A video walkthrough of ${title} "/>
+                <a href="${walkthrough}">View walkthrough
+                </a>
                     <br>
                 <h2>Screenshot</h2>
                 <img src="${screenshot}" class="img-fluid" alt="A picture of ${title} "/>
