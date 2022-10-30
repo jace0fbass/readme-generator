@@ -1,5 +1,5 @@
 
-    <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,11 +14,16 @@
                 <img src="" class="img-fluid" alt="A picture of "/>
             </div>
             <div class="col-md-6">
-                <p>Motivation: hw</p>
-                <p>Why this project was built: hw</p>
-                <p>Problems solved by this project: hw</p>
-                <p>What was learned from this project: node.js installation process</p>
-                <p>This project stands out from others by: vs code theme is cool</p>
+                <h2>Motivation:</h2> 
+                    <p>i was kjdf sdfgsgsd sd </p>
+                <h2>Why this project was built:</h2> 
+                    <p>s dfgs gsdfgfg g  sd sdf </p>
+                <h2>Problems solved by this project:</h2> 
+                    <p>s dfgf d sdfgsd </p>
+                <h2>What was learned from this project:</h2> 
+                    <p>sdgf d gd f </p>
+                <h2>This project stands out from others by:</h2> 
+                    <p>s ds gs  d s</p>
             </div>
         </div>
     </div>

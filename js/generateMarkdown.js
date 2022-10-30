@@ -2,7 +2,7 @@
 const generateMarkdown = (data) => {
   const { motivation, why, problemSolved, learned, standOut } = data;
   return `
-    <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,11 +17,16 @@ const generateMarkdown = (data) => {
                 <img src="" class="img-fluid" alt="A picture of "/>
             </div>
             <div class="col-md-6">
-                <p>Motivation: ${motivation}</p>
-                <p>Why this project was built: ${why}</p>
-                <p>Problems solved by this project: ${problemSolved}</p>
-                <p>What was learned from this project: ${learned}</p>
-                <p>This project stands out from others by: ${standOut}</p>
+                <h2>Motivation:</h2> 
+                    <p>${motivation}</p>
+                <h2>Why this project was built:</h2> 
+                    <p>${why}</p>
+                <h2>Problems solved by this project:</h2> 
+                    <p>${problemSolved}</p>
+                <h2>What was learned from this project:</h2> 
+                    <p>${learned}</p>
+                <h2>This project stands out from others by:</h2> 
+                    <p>${standOut}</p>
             </div>
         </div>
     </div>
