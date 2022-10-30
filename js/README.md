@@ -11,26 +11,37 @@
 </head>
 <body>
     <div class="container">
-    <h1>a</h2>
+    <h1>s</h1>
         <div class="column">
-                <h2>Deployed Application</h2>
-                    <a href="https://jace0fbass.github.io/readme-generator/">
-                        <i class="bi bi-github fs-3"></i>
-                    </a>
+                <h2>User Contact</h2>
+                <a href="https://github.com/jace0fbass/"><i class="bi bi-github fs-3"></i>jace0fbass</a>
+                    <br>
+                <a href="s"> 
+                <i class="bi bi-github fs-3"></i>Repository
+                </a>
+                    <br>
+                <a href="d">
+                <i class="bi bi-github fs-3"></i>Deployed
+                </a>
+                    <br>
+                <a href="mailto:<nowiki>d?
+                    subject=subject text"><i class="bi bi-envelope-fill"></i> Email jace0fbass
+                </a>
+                    <br>
                 <h2>Screenshot</h2>
-                <img src="a" class="img-fluid" alt="A picture of a "/>
+                <img src="s" class="img-fluid" alt="A picture of s "/>
             </div>
             <div class="col-md-6">
                 <h2>Motivation</h2> 
-                    <p>a</p>
-                <h2>Purpose</h2> 
-                    <p>a</p>
+                    <p>s</p>
+                <h2>Description</h2> 
+                    <p>s</p>
                 <h2>Problems Solved</h2> 
-                    <p>a</p>
+                    <p>s</p>
                 <h2>Learned</h2> 
-                    <p>a</p>
+                    <p>s</p>
                 <h2>Appeal</h2> 
-                    <p>a</p>
+                    <p>s</p>
             </div>
         </div>
     </div>

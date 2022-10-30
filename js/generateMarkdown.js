@@ -2,10 +2,13 @@
 const generateMarkdown = (data) => {
   const {
     title,
+    email,
+    username,
+    repo,
     link,
     screenshot,
     motivation,
-    why,
+    description,
     problemSolved,
     learned,
     standOut,
@@ -23,20 +26,31 @@ const generateMarkdown = (data) => {
 </head>
 <body>
     <div class="container">
-    <h1>${title}</h2>
+    <h1>${title}</h1>
         <div class="column">
-                <h2>Deployed Application</h2>
-                    <a href="${link}">
-                        <i class="bi bi-github fs-3"></i>
-                    </a>
+                <h2>User Contact</h2>
+                <a href="https://github.com/${username}/"><i class="bi bi-github fs-3"></i>${username}</a>
+                    <br>
+                <a href="${repo}"> 
+                <i class="bi bi-github fs-3"></i>Repository
+                </a>
+                    <br>
+                <a href="${link}">
+                <i class="bi bi-github fs-3"></i>Deployed
+                </a>
+                    <br>
+                <a href="mailto:<nowiki>${email}?
+                    subject=subject text"><i class="bi bi-envelope-fill"></i> Email ${username}
+                </a>
+                    <br>
                 <h2>Screenshot</h2>
                 <img src="${screenshot}" class="img-fluid" alt="A picture of ${title} "/>
             </div>
             <div class="col-md-6">
                 <h2>Motivation</h2> 
                     <p>${motivation}</p>
-                <h2>Purpose</h2> 
-                    <p>${why}</p>
+                <h2>Description</h2> 
+                    <p>${description}</p>
                 <h2>Problems Solved</h2> 
                     <p>${problemSolved}</p>
                 <h2>Learned</h2> 

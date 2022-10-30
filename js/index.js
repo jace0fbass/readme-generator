@@ -12,6 +12,21 @@ inquirer.prompt([
   },
   { 
     type: "input", 
+    message: "What is your email address?", 
+    name: "email" 
+  },
+  { 
+    type: "input", 
+    message: "What is your Github username?", 
+    name: "username" 
+  },
+  { 
+    type: "input", 
+    message: "What is your project's Github repository URL?", 
+    name: "repo" 
+  },
+  { 
+    type: "input", 
     message: "What is your project's screenshot URL?", 
     name: "screenshot" 
   },
@@ -20,32 +35,32 @@ inquirer.prompt([
     message: "What is your project's title?", 
     name: "title" 
   },
-    { 
-      type: "input", 
-      message: "What was your motivation?", 
-      name: "motivation" 
-    },
-    {
-      type: "input",
-      message: "Why did you build this project?",
-      name: "why"
-    },
-    {
-      type: "input",
-      message: "What problem does your project solve?",
-      name: "problemSolved"
-    },
-    {
-      type: "input",
-      message: "What did you learn?",
-      name: "learned"
-    },
-    {
-      type: "input",
-      message: "What makes your project stand out?",
-      name: "standOut"
-    }
-  ])
+  { 
+    type: "input", 
+    message: "What was your motivation?", 
+    name: "motivation" 
+  },
+  {
+    type: "input",
+    message: "Why did you build this project?",
+    name: "description"
+  },
+  {
+    type: "input",
+    message: "What problem does your project solve?",
+    name: "problemSolved"
+  },
+  {
+    type: "input",
+    message: "What did you learn?",
+    name: "learned"
+  },
+  {
+    type: "input",
+    message: "What makes your project stand out?",
+    name: "standOut"
+  }
+])
 
   // TODO: Create a function to write README file
 .then(answers => {
