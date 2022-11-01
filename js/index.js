@@ -28,11 +28,6 @@ inquirer
     },
     {
       type: "input",
-      message: "What is your project's walkthrough URL?",
-      name: "walkthrough",
-    },
-    {
-      type: "input",
       message: "What is your project's title?",
       name: "title",
     },
@@ -61,10 +56,17 @@ inquirer
       message: "What makes your project stand out?",
       name: "standOut",
     },
+    {
+      type: "checkbox",
+      message: "What type of license will you be using for your project?",
+      choices: ["MIT", "GPLv3", "GPL"], 
+      name: "license",
+    },
   ])
 
   // TODO: Create a function to write README file
   .then((answers) => {
+    console.log(answers.license)
     const readme = generateMarkdown(answers);
     console.log(readme);
     fs.writeFile("./README.md", readme, (error) => {
