@@ -10,8 +10,8 @@ While making this project I learned how to use node.js, how to use import/export
 
 ## Walkthrough
 
-<video width="320" height="240" controls>
-  <source src="assests\Untitled_ Nov 2, 2022 5_41 PM.webm" type="video/mp4">
+<video width="320" height="240" autoplay controls>
+  <source src="assests\Untitled_ Nov 2, 2022 5_41 PM.webm" type="video/mp4" />
 </video>
 
 ## Motivation
