@@ -8,13 +8,28 @@ https://jace0fbass.github.io/readme-generator/
 
 While making this project I learned how to use node.js, how to use import/export, how to use package.json information, how to use modules, and how to use licenses. The user accesses node.js through the command line and after running the index.js file the user is prompted to provide a series of information. When the user has enetered all of the required information a new README.md file will be created in the project's workspace folder containing the user's personal information. The appeal of this application is that it is going to save you time when working on a project. Time is the most valuable commodity on earth and this is going give it to you!
 
+## Walkthrough
+
+<video width="320" height="240" controls>
+  <source src="assests\Untitled_ Nov 2, 2022 5_41 PM.webm" type="video/mp4">
+</video>
+
 ## Motivation
 
 My Motivation for building this project was to be able to quickly and easily create a README.md file for my projects in the future using only the command line.
 
-## Walkthrough
+## Installation Instructions
+  To install this application, run npm i inquirer and install the needed dependancies and node modules.
 
-assests\walkthrough.webm
+## Usage Instructions
+  Users will follow the prompts and enter the requested information that they want in their generated markdown file.
+
+## Contributors
+  Jason Jones
+
+## Test Instructions
+
+  To test this application, run node index.js in your terminal. 
 
 ## Your Task
 
