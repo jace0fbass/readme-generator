@@ -14,7 +14,7 @@ My Motivation for building this project was to be able to quickly and easily cre
 
 ## Walkthrough
 
-<a href="https://drive.google.com/file/d/1kD6x43tMPN9gE1_og6OlqoCRn6i_wa-_/view?usp=share_link">View walkthrough</a>
+assests\walkthrough.webm
 
 ## Your Task
 

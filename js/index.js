@@ -33,33 +33,33 @@ inquirer
     },
     {
       type: "input",
-      message: "What was your motivation?",
-      name: "motivation",
-    },
-    {
-      type: "input",
       message: "Describe your project.",
       name: "description",
     },
     {
       type: "input",
-      message: "What problem does your project solve?",
-      name: "problemSolved",
+      message: "Please enter installation instructions.",
+      name: "instInstructions",
     },
     {
       type: "input",
-      message: "What did you learn?",
-      name: "learned",
+      message: "Provide usage instructions.",
+      name: "usage",
     },
     {
       type: "input",
-      message: "What makes your project stand out?",
-      name: "standOut",
+      message: "List contributors.",
+      name: "contributors",
+    },
+    {
+      type: "input",
+      message: "Provide test instructions.",
+      name: "testInstructions",
     },
     {
       type: "checkbox",
       message: "What type of license will you be using for your project?",
-      choices: ["MIT", "GPLv3", "GPL"], 
+      choices: ["MIT", "GPLv3", "GPL", "N/A"], 
       name: "license",
     },
   ])
