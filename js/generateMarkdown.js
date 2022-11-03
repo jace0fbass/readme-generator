@@ -23,18 +23,6 @@ function renderLicenseLink(license) {
        return ""
 }}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license[0] === "MIT") {
-    return ``;
-    } else if (license[0] === "GPLv3"){
-    return ``;
-    } else if (license[0] === "GPL") {
-    return ``;
-    } else {
-       return ""
-}}
 
 const generateMarkdown = (data) => {
   const {
@@ -95,8 +83,6 @@ ${renderLicenseSection(license)}
     ${testInstructions}
 
 ## Questions
-
-
 
   `;
 };
